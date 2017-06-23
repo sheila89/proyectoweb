@@ -1,0 +1,203 @@
+@font-face {
+    font-family: graffiti;
+    src: url(../fonts/graffiti.ttf);
+}
+
+@font-face {
+    font-family: graffiti2;
+    src: url(../fonts/graffiti2.ttf);
+}
+
+html{
+    width:100%;
+    height:100%; 
+    background-color: white;
+    
+}
+
+body{
+    background-color: cadetblue;
+    background-size: cover;
+    height:100%;
+    margin: 1%;
+    box-shadow: 4px 5px 6px 7px black;
+    border:5px solid #EE9B41;
+
+}
+
+header{
+    height: 20%;
+}
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.pink{
+    color: hotpink;
+}
+
+.green{
+    color: chartreuse;
+}
+.blue{
+    color:cornflowerblue;
+}
+.orange{
+    color:orange;
+}
+.greenyellow{
+    color: greenyellow;
+}
+footer{
+    height: 12%;
+    border:4px solid black;
+    box-shadow: 5px 5px 4px;
+    border-radius: 20px;
+    background-color:#EE9B41; 
+    margin-top: 3%;
+    
+}
+#titulo{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: graffiti;
+    margin-left: 12%;
+    background: rgba(0,0,0,0.2);
+    box-shadow: 4px 5px 5px deeppink;
+    
+}
+nav{
+    border:5px solid cadetblue;
+    box-shadow: 7px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: #EE9B41;
+
+}
+a{
+    color:black;
+    font-weight: bold; 
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size:26px;
+    font-family: graffiti2;
+    display: inline-block;
+
+}
+li{
+   color:#EE9B41;
+    font-weight: bold; 
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size:20px;
+    font-family: graffiti2; 
+}
+.parrafo{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+}
+#primeraImagenContenido{
+     border:3px solid black;
+    border-right: 7px solid #EE9B41;
+    border-left: 7px solid #EE9B41;
+    box-shadow: 5px 5px 5px;
+}
+nav a:hover{
+    background-color:gainsboro;
+    box-shadow: 4.5px 4.5px 4px 4px;
+    color:#EE9B41;
+}
+#direccion{
+    color:black;
+    font-size: 22px;
+    font-family: graffity2;
+}
+#contacto{
+    font-family: graffiti2;
+    color:black;
+    font-weight: bold;
+    font-size: 22px
+}
+
+#iconos-sociales{
+    font-size:45px;
+}
+pink{
+    background-color:#EE9B41;
+}
+/*Modal Box*/
+h4{
+    color:white;
+}
+.modal-header{
+    background-color: #EE9B41;
+}
+.modal-footer{
+    background-color: #EE9B41;
+}
+.greeni{
+    background-color: cadetblue;
+    color: white;
+}
+/*Subastas*/
+
+.invisibleSheila{
+    display: none;
+}
+
+.parraf{
+   background: rgba(0,0,0,0.4);
+    color:white;
+    font-weight: bold;
+}
+/*Registro*/
+#registro1{
+    background-color: a(255,20,147,0.8); 
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px black;
+    border:4px solid;
+}
+
+#register{
+    color:greenyellow;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5); 
+}
+.has-success{
+    color:cornflowerblue;
+    font-size: 20px;
+}
+/*Carrusel*/
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+.item{
+    height: 300px;
+    border-right: 10px solid #EE9B41;
+    border-left: 10px solid #EE9B41;
+    
+    
+}
+ .item img{
+ border:3px solid black;
+    border-right: 7px solid black;
+    border-left: 7px solid black;
+  
+}
+#myCarousel{
+    margin-top: 8%;
+}
+/*Subastas*/
+
+

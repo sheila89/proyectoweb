@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>miPagina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#fotoPerfil" ).show( "fast" );
+                $("#fotoPerfil").css("float", "left");
+                $("button").css("width", "60%");
+                $("button").css("float", "left");
+                $("#fondoNegro").show("fast");
+                $("#li1" ).show( "fast" );
+                $("#li2").delay("fast").fadeIn();
+                $("#li3").delay(500).fadeIn();
+                $("#li4").delay(600).fadeIn();
+            });
+        });
+</script>
+</head>
+    <body>
+        <div class="container cabecera">
+          <img class="col-xs-5 col-md-2" id="fotoPerfil" style="display:none" src="imagenes/12250141_10153750860682387_6401292740747550174_n.jpg">
+           <button id="sinEstilos" class="btn btn-info  col-md-8 col-md-offset-2"><h1 class="tipografia">SheiiBS</h1></button>
+        </div>
+        <div id="fondoNegro" class="col-xs-3 fondoNegro" style="display:none;">
+            <ul class="nav-stacked col-xs-4 col-md-9">
+             
+              <li id="li1" class="active" style="display:none;"><a class="tipografia1"id="li1" href="#">Quién soy</a></li>
+              <li id="li2" style="display:none;"><a class="tipografia1"id="li2" href="#">Formación académica</a></li>
+              <li id="li3" style="display:none;"><a class="tipografia1" id="li3" href="#">Experiencia laboral</a></li>
+              <li id="li4" style="display:none;"><a class="tipografia1"id="li4" href="#">Datos de interés</a></li>
+            </ul>
+        </div>
+    
+    </body>
+</html>
